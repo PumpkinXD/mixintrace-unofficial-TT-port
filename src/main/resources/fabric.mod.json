@@ -2,15 +2,16 @@
 	"schemaVersion": 1,
 	"id": "mixintrace",
 	"version": "${version}",
-	"name": "MixinTrace",
+	"name": "MixinTrace Unofficial TT Port",
 	"description": "Adds a list of mixins in the stack trace to crash reports",
 	"authors": [
-		"comp500"
+		"comp500",
+		"PumpkinXD"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/mod/mixintrace",
-		"sources": "https://github.com/comp500/mixintrace",
-		"issues": "https://github.com/comp500/mixintrace/issues"
+		"homepage": "https://github.com/PumpkinXD/mixintrace-unofficial-TT-port",
+		"sources": "https://github.com/PumpkinXD/mixintrace-unofficial-TT-port",
+		"issues": "https://github.com/PumpkinXD/mixintrace-unofficial-TT-port/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/mixintrace/icon.png",
@@ -20,7 +21,7 @@
 		"mixintrace.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.12.0",
-		"minecraft": "*"
+		"fabricloader": ">=0.19.1",
+		"minecraft": ">=26.1"
 	}
 }
